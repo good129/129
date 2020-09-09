@@ -1,0 +1,83 @@
+html{
+	height:100%;
+	overflow: hidden;
+}
+body{
+	height:100%;
+	overflow: auto;
+}
+.head{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:3.7rem;
+	/*overflow: hidden;*/
+	background-color: #fabc09;
+	font-size:0.9rem;
+	z-index: 999;
+}
+.foot{
+	position: absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:4.25rem;
+	border-bottom:0.1rem solid #ddd;
+	background-color: #fff;
+	z-index: 999;
+}
+.head .type{
+	width:4rem;
+	height:3.7rem;
+	background: url(../img/head/ico_type.jpg) no-repeat 1.15rem 0.45rem;
+	background-size:1.65rem 2.7rem;
+}
+.head form{
+	position: relative;
+	padding-top:0.65rem;
+}
+.head .search{
+	width:23.85rem;
+	height:2.55rem;
+	border:none;
+	text-indent: 2.5rem;
+	font-size:0.9rem;
+	color:#afaeac;
+	background-color: #fef2ce;
+	border-radius: 0.35rem;
+}
+.ico_search {
+	position: absolute;
+	width:1.15rem;
+	height:1.15rem;
+	bottom:0.8rem;
+	left:0.85rem;
+	background: url(../img/head/ico_serch.jpg) no-repeat;
+	background-size: 1.15rem 1.15rem;
+}
+.head .shop{
+	width:4.15rem;
+	height:3.7rem;
+	background: url(../img/head/ico_shop.jpg) no-repeat 0.85rem 0.45rem;
+	background-size: 2.55rem 2.8rem;
+}
+.foot .footI{
+	width:6.4rem;
+	height:3.85rem;
+	padding-top:0.4rem;
+}
+.footI .footIco{
+	width:2.1rem;
+	height:2.15rem;
+	margin:0 auto;
+}
+.footIco img{
+	width:2.1rem;
+	height:2.15rem;
+}
+.footI .footname{
+	text-align: center;
+	line-height:2.2rem;
+	color:#333;
+}
